@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat|Nunito&display=swap");
 body {
+  min-height: 100vh;
   margin: 0px;
   padding: 0px;
   -webkit-box-sizing: border-box;
@@ -54,6 +55,7 @@ body {
 }
 
 .content {
+  min-height: 100vh;
   -ms-grid-row: 2;
   -ms-grid-column: 2;
   grid-area: content;
@@ -92,7 +94,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 80%;
+  width: 90%;
   background: #214D72;
   padding: 5px;
   border-radius: 35px;
@@ -110,6 +112,10 @@ body {
   height: 50px;
   border-radius: 50%;
   margin-right: 20px;
+}
+
+.content .whitespace {
+  height: 300px;
 }
 
 .navbar {
